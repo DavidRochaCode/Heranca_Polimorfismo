@@ -1,0 +1,30 @@
+package herança_polimorfismo;
+
+public abstract class Contribuintes {
+	private String nome;
+	private double rendaBruta;
+
+	public Contribuintes(String nome, double rendaBruta) {
+		super();
+		this.nome = nome;
+		this.rendaBruta = rendaBruta;
+	}
+
+	public double getRendaBruta() {
+		return rendaBruta;
+	}
+
+	public void setRendaBruta(double rendaBruta) {
+		this.rendaBruta = rendaBruta;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public abstract double calcularImposto();
+}

@@ -1,0 +1,51 @@
+package herança_polimorfismo;
+
+
+	public class PessoaFisica extends Contribuintes {
+		
+		
+
+		private String cpf;
+		
+		public PessoaFisica(String nome, double rendaBruta) {
+			super(nome, rendaBruta);
+			
+		}
+
+		public String getCpf() {
+			return cpf;
+		}
+
+		public void setCpf(String cpf) {
+			this.cpf = cpf;
+		}
+
+		public double calcularImposto() {
+			double imposto = 0;
+			if(this.getRendaBruta() >= 0 || this.getRendaBruta() <= 1400 ) {
+				imposto = 0;
+			}else if(this.getRendaBruta()>=1400.01 || this.getRendaBruta()<=2100) {
+				imposto = (this.getRendaBruta()*0.1) - 100;
+			}else if(this.getRendaBruta()>=2100.01 || this.getRendaBruta()<=2800) {
+				imposto = (this.getRendaBruta()*0.15) - 270;
+			}else if(this.getRendaBruta()>=2800.01 || this.getRendaBruta()<=3600) {
+				imposto = (this.getRendaBruta()*0.25) - 500;
+			}else if(this.getRendaBruta()>=3600.01) {
+				imposto = (this.getRendaBruta()*0.3) - 700;
+			}
+			
+			return imposto;
+		}
+
+		@Override
+		public String toString() {
+			String s = "Imposto de renda: ";
+			s += "\n Pessoa física: " + this.calcularImposto();
+			return s; 
+		}
+			
+		
+		
+	}
+
+

@@ -1,0 +1,18 @@
+package herança_polimorfismo;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		PessoaFisica pessoa1 = new PessoaFisica("David", 1000);
+		
+		
+		
+		PessoaJuriduca  pessoa6 = new PessoaJuriduca("David", 6500);
+		
+		System.out.println(pessoa1.toString());
+		
+		System.out.println(pessoa6.toString());
+		
+	}
+
+}
