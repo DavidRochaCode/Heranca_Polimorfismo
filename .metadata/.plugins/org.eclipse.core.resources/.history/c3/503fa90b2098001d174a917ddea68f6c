@@ -1,0 +1,11 @@
+package herança_polimorfismo02;
+
+public class Piramide extends Figura3D implements DimensaoVolumetrica {
+
+	@Override
+	public void CalcularVolume() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

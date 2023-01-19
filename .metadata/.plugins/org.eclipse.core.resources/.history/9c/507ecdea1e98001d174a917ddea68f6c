@@ -1,0 +1,14 @@
+package herança_polimorfismo02;
+
+public class Cubo extends Figura3D implements DimensaoSuperficial {
+	
+	private double lado;
+	@Override
+	public double CalcularVolume() {
+		return lado*lado*lado;
+		
+		
+		
+	}
+
+}

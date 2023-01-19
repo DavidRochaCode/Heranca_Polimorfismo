@@ -1,0 +1,43 @@
+package herança_polimorfismo02;
+
+public class Piramide extends Figura3D implements DimensaoVolumetrica, DimensaoSuperficial {
+
+	private double areaBase;
+	private double altura;
+	private double areaLateral;
+
+	public double getAreaBase() {
+		return areaBase;
+	}
+
+	public void setAreaBase(double areaBase) {
+		this.areaBase = areaBase;
+	}
+
+	public double getAltura() {
+		return altura;
+	}
+
+	public void setAltura(double altura) {
+		this.altura = altura;
+	}
+
+	@Override
+	public double CalcularVolume() {
+		return (areaBase * altura) / 3;
+
+	}
+
+	@Override
+	public double CalcularArea() {
+
+		return areaBase * areaLateral;
+	}
+
+	@Override
+	public String toString() {
+		String s = "Volume da Piramide: " + CalcularVolume();
+		return s += "\n Área da piramide: " + CalcularArea();
+	}
+
+}

@@ -1,0 +1,29 @@
+package herança_polimorfismo02;
+
+public class Cilindro extends Figura3D implements DimensaoVolumetrica {
+	private double areaBase;
+	private double altura;
+
+	public double getAreaBase() {
+		return areaBase;
+	}
+
+	public void setAreaBase(double areaBase) {
+		this.areaBase = areaBase;
+	}
+
+	public double getAltura() {
+		return altura;
+	}
+
+	public void setAltura(double altura) {
+		this.altura = altura;
+	}
+
+	@Override
+	public double CalcularVolume() {
+		return areaBase * altura;
+
+	}
+
+}

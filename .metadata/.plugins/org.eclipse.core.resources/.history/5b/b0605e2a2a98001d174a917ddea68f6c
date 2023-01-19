@@ -1,0 +1,26 @@
+package herança_polimorfismo02;
+
+public class Circulo extends Figura2D implements DimensaoSuperficial {
+
+	private int raio;
+
+	public int getRaio() {
+		return raio;
+	}
+
+	public void setRaio(int raio) {
+		this.raio = raio;
+	}
+
+	@Override
+	public double CalcularArea() {
+
+		return 3.14 * this.raio * this.raio;
+	}
+
+	@Override
+	public String toString() {
+		return "Área do circulo: " + CalcularArea();
+	}
+
+}

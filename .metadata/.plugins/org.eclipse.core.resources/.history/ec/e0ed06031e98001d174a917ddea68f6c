@@ -1,0 +1,11 @@
+package herança_polimorfismo02;
+
+public class Quadrado extends Figura2D implements DimensaoSuperficial{
+
+	@Override
+	public double CalcularArea() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

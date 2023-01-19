@@ -1,0 +1,29 @@
+package herança_polimorfismo02;
+
+public class Cubo extends Figura3D implements DimensaoVolumetrica {
+	
+	private double lado;
+	
+	public double getLado() {
+		return lado;
+	}
+
+	public void setLado(double lado) {
+		this.lado = lado;
+	}
+
+	
+
+	@Override
+	public String toString() {
+		return "Volume do cubo: " + CalcularVolume();
+	}
+
+	@Override
+	public double CalcularVolume() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+}
