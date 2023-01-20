@@ -3,12 +3,13 @@
     <fullyQualifiedTypeName name="Ex01.ContaBancaria"/>
     <fullyQualifiedTypeName name="herança_polimorfismo.pessoaFisica"/>
     <fullyQualifiedTypeName name="herança_polimorfismo.PessoaJuriduca"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="herança_polimorfismo.Contribuintes"/>
     <fullyQualifiedTypeName name="herança_polimorfismo.PessoaFisica"/>
     <fullyQualifiedTypeName name="herança_polimorfismo02.Figura3D"/>
     <fullyQualifiedTypeName name="herança_polimorfismo02.DimensaoVolumetrica"/>
     <fullyQualifiedTypeName name="herança_polimorfismo02.DimensaoSuperficial"/>
     <fullyQualifiedTypeName name="herança_polimorfismo02.Figura2D"/>
+    <fullyQualifiedTypeName name="herança_polimorfismo02.Piramide"/>
     <fullyQualifiedTypeName name="herança_polimorfismo02.FiguraGeometrica"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

@@ -6,14 +6,6 @@ public class Piramide extends Figura3D implements DimensaoVolumetrica, DimensaoS
 	private double altura;
 	private double areaLateral;
 
-	public double getAreaLateral() {
-		return areaLateral;
-	}
-
-	public void setAreaLateral(double areaLateral) {
-		this.areaLateral = areaLateral;
-	}
-
 	public double getAreaBase() {
 		return areaBase;
 	}

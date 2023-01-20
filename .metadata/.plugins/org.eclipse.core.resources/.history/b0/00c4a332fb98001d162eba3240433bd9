@@ -44,7 +44,7 @@ public class Cilindro extends Figura3D implements DimensaoVolumetrica, DimensaoS
 	@Override
 	public String toString() {
 		String s = "Volume do cilindro: " + CalcularVolume();
-		return s += "\n Árear do cilindro: " + CalcularArea();
+		return s += "/n Árear do cilindro: " + CalcularArea();
 	}
 
 }

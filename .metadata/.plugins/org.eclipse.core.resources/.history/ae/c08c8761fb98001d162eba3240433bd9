@@ -38,9 +38,10 @@ public class Teste {
 		figuras[5] = figura6;
 		
 		for(int i = 0; i < figuras.length; i++) {
+			if(figuras[i] instanceof FiguraGeometrica) {
 				System.out.println("---------------------");
 				System.out.println(figuras[i].toString());
-			
+			}
 		}
 	}
 
